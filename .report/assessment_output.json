@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/meteo-gfs.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/meteo-gfs.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1750843407.0483458
+        "timestamp": 1750843468.8538187
     },
     "repository": [
         {
@@ -1565,24 +1565,24 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "id": "685bc0108086cc12814f583a",
-                "entityId": "MpRnetrdRR-TdgYMfi-NvQ",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/MpRnetrdRR-TdgYMfi-NvQ",
-                "createdAt": "2025-06-25T09:23:28.887468826Z",
+                "id": "685bc04e0d950327684c60c3",
+                "entityId": "B5H_obpZSVWVuVULmTJhGA",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/B5H_obpZSVWVuVULmTJhGA",
+                "createdAt": "2025-06-25T09:24:30.870680476Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/MpRnetrdRR-TdgYMfi-NvQ/image",
+                "image": "https://api.eu.badgr.io/public/assertions/B5H_obpZSVWVuVULmTJhGA/image",
                 "recipient": {
-                    "identity": "sha256$7ee42a335c3edd852cd0c35f11a71aab2841bcfba597599b73cb98bbacf17f68",
+                    "identity": "sha256$9b0652fe04087a002e07ea3f073db16de0a43c7d3d66f33b2e3dc741dd5ad424",
                     "hashed": true,
                     "type": "url",
-                    "salt": "OAh7p1jH6E8YcRbR",
+                    "salt": "nLPqCHbWEYHMPCU4",
                     "plaintextIdentity": "https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs"
                 },
-                "issuedOn": "2025-06-25T09:23:28.887471480Z",
+                "issuedOn": "2025-06-25T09:24:30.870683813Z",
                 "narrative": "Repository 'https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs' at version '68ec49235c1fc95f5137459dcfe30da717592134' passed successfully the following quality criteria: QC.Sec QC.Ver QC.Doc QC.Acc QC.Lic",
                 "evidence": [
                     {
@@ -1596,7 +1596,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/MpRnetrdRR-TdgYMfi-NvQ"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/B5H_obpZSVWVuVULmTJhGA"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1608,11 +1608,11 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-MpRnetrdRR-TdgYMfi-NvQ.png",
+                "imagePath": "uploads/badges/assertion-B5H_obpZSVWVuVULmTJhGA.png",
                 "ob3AwardProperties": null
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/MpRnetrdRR-TdgYMfi-NvQ?identity__url=https%3A//github.com/EOSC-synergy/meteo-gfs.assess.sqaaas/commit/22e1a7189288413f5fa8e55129552fed745afc82\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/MpRnetrdRR-TdgYMfi-NvQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FMpRnetrdRR-TdgYMfi-NvQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fmeteo-gfs.assess.sqaaas%2Fcommit%2F22e1a7189288413f5fa8e55129552fed745afc82&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fmeteo-gfs.assess.sqaaas%2Fcommit%2F22e1a7189288413f5fa8e55129552fed745afc82"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/B5H_obpZSVWVuVULmTJhGA?identity__url=https%3A//github.com/EOSC-synergy/meteo-gfs.assess.sqaaas/commit/22e1a7189288413f5fa8e55129552fed745afc82\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/B5H_obpZSVWVuVULmTJhGA/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FB5H_obpZSVWVuVULmTJhGA?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fmeteo-gfs.assess.sqaaas%2Fcommit%2F22e1a7189288413f5fa8e55129552fed745afc82&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fmeteo-gfs.assess.sqaaas%2Fcommit%2F22e1a7189288413f5fa8e55129552fed745afc82"
         }
     }
 }
