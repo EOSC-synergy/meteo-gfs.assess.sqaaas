@@ -1,0 +1,68 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs:
+      branch: main
+      repo: https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs git:
+        commands:
+        - /usr/bin/env sh .sqa/script.thirsty-azure-vulture.sh
+        container: qc.acc_muggy-silver-barb
+  QC.Doc:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.shabby-lime-harrier.sh
+        container: qc.doc_fuzzy-thistle-flamingo
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs git:
+        commands:
+        - /usr/bin/env sh .sqa/script.squirrely-bronze-anteater.sh
+        container: qc.doc_flimsy-amaranth-seal
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.muzzy-viridian-camel.sh
+        container: qc.doc_greasy-thistle-rottweiler
+  QC.Lic:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.seedy-russet-fish.sh
+        container: qc.lic_sickly-sepia-serval
+  QC.Sec:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.sleazy-ochre-butterfly.sh
+        container: qc.sec_cheeky-carmine-gopher
+  QC.Sty:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.muggy-pink-squirrel.sh
+        container: qc.sty_greasy-ruby-zorse
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.wiggy-denim-oyster.sh
+        container: qc.sty_snippy-celadon-abyssinian
+  QC.Uni:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.geeky-charcoal-impala.sh
+        container: qc.uni_flabby-cream-tarsier
+  QC.Ver:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-gfs get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.snoopy-lavender-dalmatian.sh
+        container: qc.ver_boozy-brass-binturong
+timeout: 5400
